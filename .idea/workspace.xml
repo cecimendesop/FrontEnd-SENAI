@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e84cbd7a-6217-47db-bd45-50f6ff2b9f67" name="Changes" comment="bootstrap">
-      <change afterPath="$PROJECT_DIR$/static/campus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fotosite1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/samba.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/ultraboost5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Front-End-SENAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Front-End-SENAI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/tenis.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/tenis2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/tenis3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/EX1-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/EX1-1.html" afterDir="false" />
-    </list>
+    <list default="true" id="e84cbd7a-6217-47db-bd45-50f6ff2b9f67" name="Changes" comment="bootstrap" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +91,7 @@
       <workItem from="1739538958730" duration="901000" />
       <workItem from="1739540060758" duration="15140000" />
       <workItem from="1740134450023" duration="250000" />
-      <workItem from="1740135075567" duration="10085000" />
+      <workItem from="1740135075567" duration="10357000" />
     </task>
     <task id="LOCAL-00001" summary="bootstrap">
       <option name="closed" value="true" />
@@ -123,7 +109,31 @@
       <option name="project" value="LOCAL" />
       <updated>1739560715574</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="bootstrap">
+      <option name="closed" value="true" />
+      <created>1740163614983</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740163614983</updated>
+    </task>
+    <task id="LOCAL-00004" summary="bootstrap">
+      <option name="closed" value="true" />
+      <created>1740163723547</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740163723547</updated>
+    </task>
+    <task id="LOCAL-00005" summary="bootstrap">
+      <option name="closed" value="true" />
+      <created>1740163827269</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740163827269</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
