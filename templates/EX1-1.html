@@ -2,160 +2,103 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css&quot;" rel="stylesheet">
-    <title>Estrutura Básica de Site</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        /* Estilos do Navbar */
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-            background-color: #333;
-        }
-
-        nav .logo {
-            color: white;
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-        }
-
-        nav ul li {
-            margin-left: 20px;
-        }
-
-        nav ul li a {
-            color: black;
-            text-decoration: none;
-            font-size: 18px;
-        }
-
-
-        .content .text {
-            width: 20%;
-            font-size: 20px;
-            padding: 20px;
-        }
-
-        .content .image {
-            width: 50%;
-        }
-
-        .content .image img {
-            width: 100%;
-        }
-
-        /* Estilos do container de cards */
-        .cards {
-            display: flex;
-            justify-content: space-between;
-            padding: 50px;
-        }
-
-        .card {
-            width: 30%;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            overflow: hidden;
-            text-align: center;
-        }
-
-        .card img {
-            width: 20%;
-            object-fit: contain;
-        }
-
-        .card h3 {
-            padding: 15px;
-        }
-
-        .card p {
-            padding: 0 15px 15px 15px;
-        }
-
-        /* Estilos do rodapé */
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 30px;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adidas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <!-- Navbar -->
-<nav class="navbar bg-light">
-    <div class="logo p-2"><img src="/static/adidaslogo.png" alt="logo" width="100" height="60"></div>
-    <ul>
-        <li><a href="#">adidasclub</a></li>
-        <li><a href="#">homens</a></li>
-        <li><a href="#">mulheres</a></li>
-        <li><a href="#">crianças</a></li>
-        <li><a href="#">OUTLET</a></li>
-    </ul>
+<nav class="navbar navbar-expand-lg bs-body-bg-rgb">
+    <div class="container">
+        <a class="navbar-brand" href="#"><img src="/static/adidaslogo.png" alt="logo" width="120" height="100"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">CALÇADOS</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">MULHER</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">HOMEM</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">INFANTIL</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">ESPORTES</a></li>
+            </ul>
+        </div>
+    </div>
 </nav>
 
-<!-- Container com metade texto e metade imagem -->
-<div class="content d-flex justify-content-between align-center p-3 bg-black">
-    <div class="text-white">
-        <h6><strong>Adidas (stylized as ɑdidɑs since 1949) is a footwear, sportswear and sports equipment company founded<br>
-            in Germany. It is named after its founder, Adolf Dassler, also known by his nickname Adi, who began<br>
-            producing sneakers in the 1920s, together with his brother Rudolf Dassler, in Herzogenaurach, near<br>
-            Nuremberg. The name "adidas" is a combination of Adolf's pseudonym, Adi, and the beginning of his surname, Dassler. <br>
-            The company created by the brothers was founded in 1920, however, it was divided<br>
-            in 1948, giving rise to Adidas and also to Puma, a rival company founded by Rudolf Dassler,
-            Adi's brother.</strong></h6>
+<!-- Seção principal -->
+<div class="container my-5">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <h1><strong>SEJA ADIDASCLUB!</strong><br><br></h1>
+            <div class="fs-4">
+                <p>Adidas (stylized as ɑdidɑs since 1949) is a footwear, sportswear and sports equipment company founded<br>
+                    in Germany. It is named after its founder, Adolf Dassler, also known by his nickname Adi, who began
+                    producing sneakers in the 1920s, together with his brother Rudolf Dassler, in Herzogenaurach,
+                    near<br>
+                    Nuremberg. The name "adidas" is a combination of Adolf's pseudonym, Adi, and the beginning of his
+                    surname, Dassler. <br>
+                    The company created by the brothers was founded in 1920, however, it was divided<br>
+                    in 1948, giving rise to Adidas and also to Puma, a rival company founded by Rudolf Dassler,
+                    Adi's brother.</p>
+            </div>
 
-    </div>
-    <div class="image"><img src="/static/img_1.png" alt="logo" width="350" height="710">
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="/static/fotosite1.png" alt="Exemplo de imagem" class="img-fluid rounded">
+        </div>
     </div>
 </div>
 
-<!-- Container com 3 cards -->
-<div class="cards bg-black">
-    <div class="card">
-        <img src="speaker.png" alt="Imagem do Card 1">
-        <h3>Histórias Diversas</h3>
-        <p>Esta é uma breve descrição do card 1.</p>
-    </div>
-    <div class="card">
-        <img src="phone-call.png" alt="Imagem do Card 2">
-        <h3>Mais de 1 milhão de usuários</h3>
-        <p>Esta é uma breve descrição do card 2.</p>
-    </div>
-    <div class="card">
-        <img src="chat.png" alt="Imagem do Card 3">
-        <h3>Sobre nós</h3>
-        <p>Esta é uma breve descrição do card 3.</p>
+<!-- Seção de serviços -->
+<div class="container my-5 ">
+    <div class="row text-center ">
+        <div class="col-md-4 ">
+            <div class="card p-3 bg-body-secondary">
+                <img src="/static/samba.png" class="card-img-top w-50 mx-auto " alt="Imagem do Card 1">
+                <div class="card-body ">
+                    <h3 class="card-title"><strong>samba</strong></h3>
+                    <p class="card-text">O tênis adidas Samba une um visual vintage a um moderno que é tudo sobre o
+                        presente. O solado de borracha natural com padrão de solado
+                        variado proporciona aderência confiável.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-3 bg-body-secondary">
+                <img src="/static/campus.png" class="card-img-top w-50 mx-auto " alt="Imagem do Card 2">
+                <div class="card-body">
+                    <h3 class="card-title"><strong>campus</strong></h3>
+                    <p class="card-text">Inclua os tênis Campus 00s na sua rotina semanal. Você pode combinar este tênis
+                        versátil com tudo,
+                        este tênis de perfil baixo mantém você confortável no icônico estilo adidas Originals.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 ">
+            <div class="card p-3 bg-body-secondary">
+                <img src="/static/ultraboost5.png" class="card-img-top w-50 mx-auto " alt="Imagem do Card 3"
+                     height="120">
+                <div class="card-body">
+                    <h3 class="card-title"><strong>ultraboost5x</strong></h3>
+                    <p class="card-text "> Nosso BOOST mais leve de todos oferece retorno <br>de energia contínuo
+                        ao longo dos quilômetros, para que você se sinta refrescado do começo ao fim.</p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
 <!-- Rodapé -->
-<footer>
+<footer class="bg-dark text-white text-center py-3 mt-5">
     <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

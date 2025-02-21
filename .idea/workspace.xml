@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e84cbd7a-6217-47db-bd45-50f6ff2b9f67" name="Changes" comment="bootstrap" />
+    <list default="true" id="e84cbd7a-6217-47db-bd45-50f6ff2b9f67" name="Changes" comment="bootstrap">
+      <change afterPath="$PROJECT_DIR$/static/campus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fotosite1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/samba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ultraboost5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Front-End-SENAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Front-End-SENAI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/tenis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/tenis2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/tenis3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/EX1-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/EX1-1.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +34,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;cecimendesop&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/cecimendesop/Front-End-SENAI.git&quot;,
+    &quot;accountId&quot;: &quot;613894fe-1588-42b3-9956-c4b61ad41ba9&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -36,7 +62,9 @@
     "JavaScript Debug.ex1.html.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/senai_24_25/PycharmProjects/Front-End-SENAI/static",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -44,9 +72,15 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": []
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\senai_24_25\PycharmProjects\Front-End-SENAI\static" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\senai_24_25\PycharmProjects\Front-End-SENAI\static" />
       <recent name="C:\Users\senai_24_25\PycharmProjects\Front-End-SENAI\templates" />
@@ -69,7 +103,9 @@
       <option name="presentableId" value="Default" />
       <updated>1739538957699</updated>
       <workItem from="1739538958730" duration="901000" />
-      <workItem from="1739540060758" duration="14932000" />
+      <workItem from="1739540060758" duration="15140000" />
+      <workItem from="1740134450023" duration="250000" />
+      <workItem from="1740135075567" duration="10085000" />
     </task>
     <task id="LOCAL-00001" summary="bootstrap">
       <option name="closed" value="true" />
@@ -79,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739560607946</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="bootstrap">
+      <option name="closed" value="true" />
+      <created>1739560715574</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739560715574</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
