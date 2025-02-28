@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e84cbd7a-6217-47db-bd45-50f6ff2b9f67" name="Changes" comment="bootstrap">
-      <change afterPath="$PROJECT_DIR$/EX 28-02/contato.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EX 28-02/ex2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EX 28-02/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EX 28-02/servicos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EX 28-02/sobre.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EX 28-02/time.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/BastianKnobloch.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/ChristianKlein1 (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/MathieuSidokpohou.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/NassefSawiris (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Oliver_Mintzlaff (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/foto2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/foto3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/ian (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/thomas1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EX 28-02/servicos.html" beforeDir="false" afterPath="$PROJECT_DIR$/EX 28-02/servicos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +52,7 @@
     "JavaScript Debug.ex2.html.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
     "JavaScript Debug.servicos.html.executor": "Run",
+    "JavaScript Debug.time.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -117,7 +101,7 @@
       <workItem from="1740135075567" duration="10357000" />
       <workItem from="1740163891528" duration="1064000" />
       <workItem from="1740652799496" duration="144000" />
-      <workItem from="1740739682813" duration="13849000" />
+      <workItem from="1740739682813" duration="14475000" />
     </task>
     <task id="LOCAL-00001" summary="bootstrap">
       <option name="closed" value="true" />
@@ -167,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740163926287</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="bootstrap">
+      <option name="closed" value="true" />
+      <created>1740762523082</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740762523082</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
