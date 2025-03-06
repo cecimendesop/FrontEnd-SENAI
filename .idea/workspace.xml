@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e84cbd7a-6217-47db-bd45-50f6ff2b9f67" name="Changes" comment="bootstrap">
+      <change afterPath="$PROJECT_DIR$/EX 28-02/exemplo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EX 28-02/servicos.html" beforeDir="false" afterPath="$PROJECT_DIR$/EX 28-02/servicos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EX 28-02/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/EX 28-02/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -44,38 +46,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.EX1-1.html.executor": "Run",
-    "JavaScript Debug.ex1.html.executor": "Run",
-    "JavaScript Debug.ex2.html.executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
-    "JavaScript Debug.servicos.html.executor": "Run",
-    "JavaScript Debug.time.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/senai_24_25/PycharmProjects/Front-End-SENAI/static",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.EX1-1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ex1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ex2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.home.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.servicos.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.time.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/senai_24_25/PycharmProjects/Front-End-SENAI/static&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": []
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: []
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\senai_24_25\PycharmProjects\Front-End-SENAI\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\senai_24_25\PycharmProjects\Front-End-SENAI\static" />
       <recent name="C:\Users\senai_24_25\PycharmProjects\Front-End-SENAI\EX 28-02" />
+      <recent name="C:\Users\senai_24_25\PycharmProjects\Front-End-SENAI\static" />
       <recent name="C:\Users\senai_24_25\PycharmProjects\Front-End-SENAI\templates" />
     </key>
   </component>
@@ -101,7 +104,11 @@
       <workItem from="1740135075567" duration="10357000" />
       <workItem from="1740163891528" duration="1064000" />
       <workItem from="1740652799496" duration="144000" />
-      <workItem from="1740739682813" duration="14475000" />
+      <workItem from="1740739682813" duration="15839000" />
+      <workItem from="1740770346170" duration="16000" />
+      <workItem from="1741258409622" duration="841000" />
+      <workItem from="1741261651483" duration="40000" />
+      <workItem from="1741285118436" duration="4010000" />
     </task>
     <task id="LOCAL-00001" summary="bootstrap">
       <option name="closed" value="true" />
@@ -159,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740762523082</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="bootstrap">
+      <option name="closed" value="true" />
+      <created>1740763175881</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740763175881</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
