@@ -34,4 +34,9 @@ Melhorias UI - Cores diferenciando cada detalhe da descrição, hover nos cards,
 
 
 Antes: 
+<img width="1886" height="850" alt="Captura de tela 2025-09-04 145458" src="https://github.com/user-attachments/assets/b4ade242-2216-4a9a-b602-2daacd80f391" />
+
 Depois:
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/7f0f7e6f-0348-4077-b63c-011b4a5e8e83" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/3b7f5046-19d9-4d80-ae21-ef3604d6c762" />
+
