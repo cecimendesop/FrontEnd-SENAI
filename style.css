@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+h1 {
+    font-weight: 600;
+    color: #222;
+}
+
+.card {
+    width: 220px;
+    border: 1px solid #ccc; /* borda fina */
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 1rem;
+    box-sizing: border-box;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: left;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.card strong {
+    display: block;
+    font-size: 1rem;
+    color: #111;
+    margin-bottom: 0.3rem;
+}
+
+/* Cores diferenciadas para cada elemento */
+.card p {
+    font-size: 0.875rem;
+    margin: 0.2rem 0;
+}
+
+.card p.category {
+    color: #6c757d; /* cinza suave */
+}
+
+.card p.price {
+    color: #198754; /* verde suave */
+}
+
+.card p.rating {
+    color: #f0ad4e; /* laranja dourado */
+}
+
+.card p.stock {
+    color: #0d6efd; /* azul suave */
+}
+
+/* Lista de produtos */
+#list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center; /* centraliza os cards */
+}
+
+/* Botão "Carregar mais" */
+#loadMore {
+    display: inline-block;
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    border: 1px solid #6c757d;
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+#loadMore:hover {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+/* Select de filtro */
+#categoryFilter {
+    max-width: 250px;
+}
+
